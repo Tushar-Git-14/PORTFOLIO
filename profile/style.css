@@ -223,18 +223,18 @@ span{
 }
 @keyframes words{
     0%,20%{
-        content:"Web Developer";
+        content:"API Developer";
     }
     21%,40%{
-        content:"Software Developer";
+        content:"Software Engineer";
     } 41%,60%{
-        content:"Web Designer";
+        content:"Python Developer";
     }
     61%,80%{
-        content:"Full Stack Developer";
+        content:"UI/UX Designer";
     }
     81%,100%{
-        content:"Photographer";
+        content:"Cloud Enthusiast";
     }
 
 }
@@ -286,6 +286,8 @@ span{
    margin: 0;
 
 }
+
+
 .services-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -325,6 +327,7 @@ span{
     font-weight: 400;
     max-height: 100px;
     margin: auto;
+    line-height: 1.5;
 
 }
 @media (max-width:991px){
@@ -359,8 +362,10 @@ span{
 
 }
 .skills img{
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 80px;  /* Adjust the size as needed */
+    max-height: 80px; /* Adjust the size as needed */
+    width: auto;
+    height: auto;
 }
 
 
